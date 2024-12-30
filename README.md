@@ -1,58 +1,20 @@
-# File Finder
+# FileFinder
 
-This project helps you find files on your system when you can't remember the exact location but still remember some portion of the file name or its extension.
+FileFinder is a simple command-line tool built with Rust to help individuals find files or directories on their system if they forget their location. It searches for files by name and returns the path to the file, making it easy to locate misplaced files.
 
 ## Features
+- Search for files or directories by name.
+- Fast and efficient search.
+- Built with Rust for performance and reliability.
 
-- Search for files by partial name or extension.
-- Optionally search for both partial file names and extensions simultaneously.
-- Scalable search for large directories and multiple locations.
+## Prerequisites
+To run FileFinder, you need to have Rust installed on your system. You can install Rust by following the instructions on the official website:
 
-## Requirements
-
-- Python 3.x
-- Required libraries (listed below)
+[Install Rust](https://www.rust-lang.org/learn/get-started)
 
 ## Installation
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/file-finder.git
-    ```
 
-2. Navigate into the project directory:
-    ```bash
-    cd file-finder
-    ```
-
-3. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-To find files, you can run the script and pass in a portion of the filename or file extension.
-
-### Example:
-
-1. **Find files by partial name**:
-    ```bash
-    python file_finder.py --name "example"
-    ```
-    This will search for files that contain the word "example" in their filename.
-
-2. **Find files by extension**:
-    ```bash
-    python file_finder.py --extension ".txt"
-    ```
-    This will search for all `.txt` files on your system.
-
-3. **Find files by both partial name and extension**:
-    ```bash
-    python file_finder.py --name "report" --extension ".pdf"
-    ```
-    This will search for files that contain "report" in their filename and have a `.pdf` extension.
-
-### Command-Line Arguments:
-- `--name <name>`: (optional) Partial or full f
+```bash
+git clone https://github.com/yourusername/filefinder.git
