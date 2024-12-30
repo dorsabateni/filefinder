@@ -8,7 +8,7 @@
   body {
     font-family: 'Arial', sans-serif;
     background-color: #e60e32;
-    color: #333;
+    color: #2447c7;
     line-height: 1.6;
   }
   
@@ -18,8 +18,8 @@
   }
   
   header {
-    background-color: #333;
-    color: #fff;
+    background-color: #b724c7;
+    color: #3fd963;
     padding: 50px 0;
     text-align: center;
   }
@@ -60,7 +60,7 @@
   }
   
   button, .cta a {
-    background-color: #007BFF;
+    background-color: #d9543f;
     color: white;
     padding: 12px 30px;
     text-decoration: none;
@@ -69,7 +69,7 @@
   }
   
   button:hover, .cta a:hover {
-    background-color: #0056b3;
+    background-color: #72d93f;
   }
   
   footer {
