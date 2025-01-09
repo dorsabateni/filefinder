@@ -20,4 +20,8 @@ To run FileFinder, you need to have Rust installed on your system. You can insta
 ```bash
  https://github.com/dorsabateni/filefinder
 
+cargo run -- <pattern> <extension> <directory>
+
+cargo run -- "*.rs" "rs" "~/projects"
+
 
