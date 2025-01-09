@@ -18,3 +18,5 @@ To run FileFinder, you need to have Rust installed on your system. You can insta
 
 ```bash
  https://github.com/dorsabateni/filefinder
+
+# [filefinderweb](https://dorsabateni.github.io/filefinderweb/)
