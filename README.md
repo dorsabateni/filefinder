@@ -1,4 +1,5 @@
 # FileFinder
+# [filefinderweb](https://dorsabateni.github.io/filefinderweb/)
 
 FileFinder is a simple command-line tool built with Rust to help individuals find files or directories on their system if they forget their location. It searches for files by name and returns the path to the file, making it easy to locate misplaced files.
 
@@ -19,4 +20,4 @@ To run FileFinder, you need to have Rust installed on your system. You can insta
 ```bash
  https://github.com/dorsabateni/filefinder
 
-# [filefinderweb](https://dorsabateni.github.io/filefinderweb/)
+
