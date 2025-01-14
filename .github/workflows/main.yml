@@ -16,7 +16,7 @@ jobs:
           - aarch64-unknown-linux-musl # ARM Linux (musl)
 
     env:
-      BINARY_NAME: filefinder-cli
+      BINARY_NAME: filefinder
 
     steps:
       - name: Checkout code
