@@ -25,3 +25,4 @@ cargo run -- <pattern> <extension> <directory>
 cargo run -- "*.rs" "rs" "~/projects"
 
 
+...
