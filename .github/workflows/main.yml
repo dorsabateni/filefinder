@@ -15,14 +15,6 @@ jobs:
           - x86_64-unknown-linux-musl # Linux (musl)
           - aarch64-unknown-linux-musl # ARM Linux (musl)
           - x86_64-apple-darwin # macOS
-<<<<<<< HEAD
-=======
-          - x86_64-pc-windows-gnu # Windows (GNU ABI)
-          - x86_64-pc-windows-msvc # Windows (MSVC ABI)
-          - aarch64-apple-darwin # ARM macOS
-          - x86_64-unknown-linux-gnu # Standard Linux
-          - x86_64-ubuntu-latest # Example of more Linux based
->>>>>>> b580c2d254dabcd47f1e7a9418ea3965090f6254
     env:
       BINARY_NAME: filefinder
 
